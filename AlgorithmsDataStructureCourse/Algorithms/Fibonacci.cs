@@ -11,8 +11,6 @@ namespace AlgorithmsDataStructureCourse.Algorithms
     {
         public static BigInteger calculateFib(int number, Dictionary<int, BigInteger> memo = null)
         {
-            BigInteger result;
-
             if (memo == null)
             {
                 memo = new Dictionary<int, BigInteger>();
